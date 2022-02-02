@@ -376,6 +376,7 @@ html {
   #main-footer a i {
     font-size: 2rem;
   }
+} 
 
 
   /* main image container for mobile */
@@ -395,15 +396,6 @@ html {
     }
   }
 
-  .header-styling {
-    margin: 100px auto 60px;
-  }
-
-  #about-section .about-para img {
-  width: 60%;
-  }
-
-
 
   @media screen and (max-width: 620px) {
     #navbar > p a {
@@ -414,4 +406,20 @@ html {
       font-size: 2rem;
     }
   }
-}
+
+  
+  /* added with JS */
+
+  .nav-styled {
+    height: 50px !important;
+    background-color: rgba(204, 204, 204, 0.9);
+    box-shadow: 1px 1px 1px black;
+    line-height: 50px !important;
+  }
+
+  .navlink-styled {
+    font-size: 1.2rem !important;
+    color: black !important;
+  }
+
+  
