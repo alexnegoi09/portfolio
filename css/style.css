@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,400i,500,500i,600,600i&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Handlee&display=swap');
 
 * {
     margin: 0;
@@ -83,7 +84,7 @@ html {
   text-transform: lowercase;
   font-weight: 100;
   letter-spacing: 5px;
-  font-family: 'times new roman', serif;
+  font-family: handlee, cursive;
   font-style: italic;
   font-weight: bold;
 }
@@ -135,8 +136,7 @@ html {
   align-self: center;
   line-height: 1.7;
   cursor: default;
-  font-family: 'times new roman', serif;
-  font-style: italic;
+  font-family: montserrat, sans-serif;
   font-weight: bold;
   font-size: 1.2rem;
   text-align: center;
@@ -246,6 +246,10 @@ html {
 
 #projects-section .project:last-child {
   margin-bottom: 75px;
+}
+
+#projects-section .space {
+  background-image: url(../img/space.png);
 }
 
 #projects-section .easybank {
