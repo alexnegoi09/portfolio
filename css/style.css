@@ -144,10 +144,10 @@ html {
 
 #skills-header {
   border: 5px solid black;
-  width: 18%;
+  width: 30%;
   min-width: 200px;
   margin: 100px auto 80px;
-  padding: 5px 0;
+  padding: 7px 0;
   font-size: 1.1rem;
   border-radius: 100px;
   text-align: center;
