@@ -17,8 +17,6 @@ html {
   scroll-behavior: smooth;
 }
 
-/* navbar section */
-
 #navbar {
   display: flex;
   height: 70px;
@@ -49,8 +47,6 @@ html {
   color: white;
   transform: translateY(-8px);
 }
-
-/* main image section */
 
 #main-image-container {
   height: 600px;
@@ -87,8 +83,6 @@ html {
   font-weight: bold;
 }
 
-/* about section */
-
 .header-styling {
   border: 5px solid black;
   width: 30%;
@@ -121,7 +115,7 @@ html {
   display: inline-block;
   border-radius: 10px;
   transition: opacity 100ms ease-in-out;
-  box-shadow: 2px 1px 5px black;
+  box-shadow: 2px 2px 25px 1px gray;
 }
 
 #about-section .about-para img:hover {
@@ -139,8 +133,6 @@ html {
   min-width: 200px;
   max-width: 600px;
 }
-
-/* about section - skills subsection */
 
 #skills-header {
   border: 5px solid black;
@@ -206,7 +198,6 @@ html {
   width: 60%;
 }
 
-/* projects section */
 #projects-section {
   width: 40%;
   min-width: 350px;
@@ -228,7 +219,7 @@ html {
   text-decoration: none;
   background-size: cover;
   background-position: center;
-  box-shadow: 2px 1px 5px black;
+  box-shadow: 2px 2px 25px 1px gray;
   cursor: pointer;
   transition: 150ms ease-in-out;
   text-decoration: none;
@@ -262,13 +253,9 @@ html {
   background-image: url(../img/mouse-testing-tool.png);
 }
 
-/* projects section - animation */
-
 #projects-section .project:hover {
   transform: translateY(-8px);
 }
-
-/* footer */
 
 #main-footer {
   background-color: green;
@@ -298,8 +285,6 @@ html {
 #main-footer a:hover {
   color: black;
 }
-
-/* responsive */
 
 @media screen and (max-width: 1200px) {
   body,
@@ -370,8 +355,6 @@ html {
   }
 }
 
-/* main image container for mobile */
-
 @media screen and (max-width: 700px) {
   #navbar > p a {
     font-size: 1.1rem !important;
@@ -396,8 +379,6 @@ html {
     font-size: 2rem;
   }
 }
-
-/* added with JS */
 
 .nav-styled {
   height: 50px !important;
